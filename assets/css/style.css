@@ -1,0 +1,132 @@
+@font-face { font-family: 'Poppins-Bold'; src: url('../fonts/Poppins-Bold.ttf');}
+@font-face { font-family: 'Poppins-BoldItalic'; src: url('../fonts/Poppins-BoldItalic.ttf');}
+@font-face { font-family: 'Poppins-ExtraBold'; src: url('../fonts/Poppins-ExtraBold.ttf');}
+@font-face { font-family: 'Poppins-ExtraBoldItalic'; src: url('../fonts/Poppins-ExtraBoldItalic.ttf');}
+@font-face { font-family: 'Poppins-Italic'; src: url('../fonts/Poppins-Italic.ttf');}
+@font-face { font-family: 'Poppins-Regular'; src: url('../fonts/Poppins-Regular.ttf');}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(243, 239, 239);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    border-radius: 20px 30px 25% 30px;
+    padding: 3em;
+    margin: 1.1em;
+    height: 420px;
+    width: 560px;
+    align-items: center;
+    background-color: white;
+        
+}
+.formp{
+    width: 100%;
+}
+
+.form{
+    display: inline;
+}
+
+.block{
+    width: 25%;
+    display: inline-block;
+}
+
+.block label{
+    font-family: 'Poppins-Bold';
+    color: gray;
+    font-size: 10px;
+    letter-spacing: 3px;
+    display: block;
+
+}
+
+.form input {
+    margin-top: 5px;
+    font-family: 'Poppins-Bold';
+    border:rgb(222, 222, 222) 1.5px solid;
+    border-radius: 7px;
+    display: inline;
+    height: 55px;
+    width: 105px;
+    padding-left: 15px;
+    font-size: 25px;
+}
+
+.form input:hover {
+    border-color: hsl(259, 100%, 65%);  
+}
+
+.form input::placeholder {
+    color:rgb(122, 120, 120);
+}
+
+.submitp{
+    display: flex;
+    align-items: right;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+}
+
+.btn hr{
+    border: rgb(222, 222, 222) 1px solid;
+    width: 100%;
+}
+.btn button {
+    width: 75px;
+    height: 70px;
+    background-color:hsl(259, 100%, 65%);
+    border-radius:50% ;
+    border: none;
+    color: black;
+}
+
+.btn button:hover{
+    background-color: black;
+}
+
+.input_error {
+    font-weight: 500;
+    font-size: 12px;
+    font-family: 'Poppins-Italic';
+    display: none;
+    color: rgb(222, 127, 127);
+}
+
+.mp span {
+    color: hsl(259, 100%, 65%);
+    letter-spacing: 10px;
+}
+
+.mp h1{
+    font-size: 5em;
+    font-family: 'Poppins-ExtraBoldItalic';
+    margin-top: 0;
+    margin-bottom: -30px;
+}
+
+footer {
+    display: none;
+}
+
+@media screen and (max-width:600px) {
+
+}
