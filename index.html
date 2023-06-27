@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        .attribution { font-size: 11px; text-align: center; }
+        .attribution a { color: hsl(228, 45%, 44%); }
+      </style>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="card">
+                <div class="formp" novalidate>
+                    <form class="form" >
+                        <div class="block">
+                            <label class="e" id="e0" for="day">DAY</label>
+                            <input type="number"  maxlength="31" id="day" placeholder="DD">
+                            <small class="input_error" id="error0"></small>
+                        </div>
+                        <div class="block">
+                            <label class="e" id="e1"  for="month">MONTH</label>
+                            <input type="number"  maxlength="12" id="month" placeholder="MM">
+                            <small class="input_error" id="error1"></small>
+                        </div>
+                        <div class="block">
+                            <label class="e" id="e2"  for="year">YEAR </label>
+                            <input type="number" maxlength="2006" id="year" placeholder="YYYY">
+                            <small class="input_error" id="error2"></small>
+                        </div>
+                        <div class="btn">
+                            <hr>
+                            <button type="submit" onclick="validate()"> <img src="assets/images/icon-arrow.svg" alt="submit" style="width: 55%;"> </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="mp">
+                    <h1><span id="YY">--</span>years</h1>           
+                    <h1><span id="MM">--</span>months</h1>
+                    <h1><span id="DD">--</span>days</h1>
+                </div>
+            </div>
+    </div>
+    </main>
+   
+    <script src="assets/js/script.js"></script>
+</body>
+<footer>
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Oliver Ynfantas</a>.
+    </div>
+</footer>
+</html>
