@@ -25,11 +25,11 @@ body{
 }
 
 .card{
-    border-radius: 20px 30px 25% 30px;
+    border-radius: 20px 30px 15% 30px;
     padding: 3em;
     margin: 1.1em;
-    height: 420px;
-    width: 560px;
+    height: 520px;
+    width: 760px;
     align-items: center;
     background-color: white;
         
@@ -50,7 +50,7 @@ body{
 .block label{
     font-family: 'Poppins-Bold';
     color: gray;
-    font-size: 10px;
+    font-size: 15px;
     letter-spacing: 3px;
     display: block;
 
@@ -62,8 +62,8 @@ body{
     border:rgb(222, 222, 222) 1.5px solid;
     border-radius: 7px;
     display: inline;
-    height: 55px;
-    width: 105px;
+    height: 65px;
+    width: 135px;
     padding-left: 15px;
     font-size: 25px;
 }
@@ -91,8 +91,8 @@ body{
     width: 100%;
 }
 .btn button {
-    width: 75px;
-    height: 70px;
+    width: 93px;
+    height: 90px;
     background-color:hsl(259, 100%, 65%);
     border-radius:50% ;
     border: none;
@@ -118,14 +118,18 @@ body{
 }
 
 .mp h1{
-    font-size: 5em;
+    
+    font-size: 6.3em;
     font-family: 'Poppins-ExtraBoldItalic';
-    margin-top: 0;
+    margin-top: -30px;
     margin-bottom: -30px;
 }
 
 footer {
-    display: none;
+    position: fixed;
+    left: 0;
+    bottom: 10px;
+    width: 100%;
 }
 
 @media screen and (max-width:650px) {
