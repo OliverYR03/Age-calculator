@@ -217,3 +217,14 @@ footer {
     }
 
 }
+
+@media screen and (max-width:400px) {
+   
+    .mp h1{
+        font-size: 2.8em;
+    }
+
+    .form input {
+        width: 70px;
+    }
+}

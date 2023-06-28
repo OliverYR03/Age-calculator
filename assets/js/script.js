@@ -22,7 +22,7 @@ function validate(){
            document.getElementById("error0").textContent= 'This field is required',
            document.getElementById("e0").style.color="rgb(222, 127, 127)";
         
-        }else if (day > 31){
+        }else if (day > 31 || day <1){
            dayInput.style.border = '1px solid rgb(233, 131, 131)',
            dayInput.style.color = 'rgb(233, 131, 131)';     
            document.getElementById("error0").style.display= 'inline'
@@ -36,7 +36,7 @@ function validate(){
            document.getElementById("error1").textContent= 'This field is required',
            document.getElementById("error1").style.display= 'inline',
            document.getElementById("e1").style.color="rgb(222, 127, 127)";
-        }else if (month > 12){
+        }else if (month > 12 || month <1){
            monthInput.style.border = '1px solid rgb(233, 131, 131)',
            monthInput .style.color = 'rgb(233, 131, 131)';    
            document.getElementById("error1").textContent= 'Must Be a valid Month',
@@ -50,7 +50,7 @@ function validate(){
            document.getElementById("error2").style.display= 'inline',
            document.getElementById("error2").textContent= 'This field is required',
            document.getElementById("e2").style.color="rgb(222, 127, 127)";
-        }else if (year >= 2015){
+        }else if (year >= 2015 || year <1){
            yearInput.style.border = '1px solid rgb(233, 131, 131)',
            yearInput .style.color = 'rgb(233, 131, 131)',
            document.getElementById("error2").style.display= 'inline',
