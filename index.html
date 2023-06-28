@@ -17,22 +17,24 @@
             <div class="card">
                 <div class="formp" novalidate>
                     <form class="form" >
-                        <div class="block">
+                        <div class="block" style="margin-left: 0;">
                             <label class="e" id="e0" for="day">DAY</label>
-                            <input type="number"  maxlength="31" id="day" placeholder="DD">
+                            <input type="text"  maxlength="31" id="day" placeholder="DD">
                             <small class="input_error" id="error0"></small>
                         </div>
                         <div class="block">
                             <label class="e" id="e1"  for="month">MONTH</label>
-                            <input type="number"  maxlength="12" id="month" placeholder="MM">
+                            <input type="text"  maxlength="12" id="month" placeholder="MM">
                             <small class="input_error" id="error1"></small>
                         </div>
                         <div class="block">
                             <label class="e" id="e2"  for="year">YEAR </label>
-                            <input type="number" maxlength="2006" id="year" placeholder="YYYY">
+                            <input type="text" maxlength="2006" id="year" placeholder="YYYY">
                             <small class="input_error" id="error2"></small>
                         </div>
                         <div class="btn">
+                            <br style="display: none;">
+                            <br style="display: none;">
                             <hr>
                             <button type="submit" onclick="validate()"> <img src="assets/images/icon-arrow.svg" alt="submit" style="width: 55%;"> </button>
                         </div>

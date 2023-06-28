@@ -15,7 +15,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(243, 239, 239);
+    background-color: rgb(225, 221, 221);
 }
 
 .container {
@@ -103,6 +103,7 @@ body{
     background-color: black;
 }
 
+
 .input_error {
     font-weight: 500;
     font-size: 12px;
@@ -127,6 +128,92 @@ footer {
     display: none;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:650px) {
+
+    body{
+       display: block;
+       width: 100%;
+    }
+    .container{
+        width: 100%;
+    }
+    
+    .card{
+        border-radius: 20px 30px 25% 30px;
+        padding: 3em;
+        padding-left: 6%;
+        margin: 1.1em;
+        height: 390px;
+        width: 290px;
+        align-items: center;
+        background-color: white;
+            
+    }
+    
+    .block{
+        margin-left: 26px;
+    }
+    
+    .block label{
+        font-size: 10px;    
+    }
+    
+    .form input {
+        width: 80px;
+        font-size: 18px;
+    }
+    
+    .submitp{
+        display: flex;
+        align-items: right;
+    }
+    
+    .btn {
+        margin-top: 70px;
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+    
+
+
+    .btn hr{
+        display: block;
+        border: rgb(222, 222, 222) 1px solid;
+        width: 100%;
+        text-align: center;
+    }
+    .btn button {
+        width: 60px;
+        height: 60px;
+        margin-top: -35px;
+        
+        border: none;
+    }
+
+    .btn button img {
+        width: 15px;
+    }
+    
+    .btn button:hover{
+        background-color: black;
+    }
+    
+    
+    .input_error {
+        font-weight: 500;
+        font-size: 12px;
+        font-family: 'Poppins-Italic';
+        display: none;
+        color: rgb(222, 127, 127);
+    }
+      
+    .mp h1{
+        font-size: 3.5em;
+    }
+
+    .mp{
+        margin-top: 10px;
+    }
 
 }
