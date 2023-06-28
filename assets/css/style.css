@@ -15,7 +15,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(225, 221, 221);
+    background-color: rgba(241, 240, 240, 0.892);
 }
 
 .container {
@@ -25,10 +25,11 @@ body{
 }
 
 .card{
-    border-radius: 20px 30px 15% 30px;
+    border-radius: 20px 30px 25% 30px;
     padding: 3em;
-    margin: 1.1em;
-    height: 520px;
+    margin: 0.9em;
+    padding-top: 70px;
+    height: 580px;
     width: 760px;
     align-items: center;
     background-color: white;
@@ -119,7 +120,7 @@ body{
 
 .mp h1{
     
-    font-size: 6.3em;
+    font-size: 7.1em;
     font-family: 'Poppins-ExtraBoldItalic';
     margin-top: -30px;
     margin-bottom: -30px;
@@ -132,6 +133,9 @@ footer {
     width: 100%;
 }
 
+.attribution{
+    font-size: 20px;
+}
 @media screen and (max-width:650px) {
 
     body{
@@ -220,6 +224,9 @@ footer {
         margin-top: 10px;
     }
 
+    footer {
+        display: none;
+    }
 }
 
 @media screen and (max-width:400px) {
@@ -230,5 +237,9 @@ footer {
 
     .form input {
         width: 70px;
+    }
+
+    footer {
+        display: none;
     }
 }
