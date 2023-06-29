@@ -151,7 +151,7 @@ footer {
         padding: 3em;
         padding-left: 6%;
         margin: 1.1em;
-        height: 390px;
+        height: 340px;
         width: 290px;
         align-items: center;
         background-color: white;
@@ -168,6 +168,7 @@ footer {
     
     .form input {
         width: 80px;
+        height: 45px;
         font-size: 18px;
     }
     
@@ -221,7 +222,7 @@ footer {
     }
 
     .mp{
-        margin-top: 10px;
+        margin-top: 30px;
     }
 
     footer {
@@ -232,7 +233,7 @@ footer {
 @media screen and (max-width:400px) {
    
     .mp h1{
-        font-size: 2.8em;
+        font-size: 2.9em;
     }
 
     .form input {
